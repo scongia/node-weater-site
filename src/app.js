@@ -5,10 +5,6 @@ const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
-
-// console.log(__dirname)                            //__dirname is provided by node
-// console.log(path.join(__dirname,'../public'))     //path is a node provided module
-
 const app = express()
 const port = 3000
 
